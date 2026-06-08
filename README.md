@@ -20,7 +20,7 @@ STB 34.101.31 / Bel-T standard), and **secure protocol & network analysis**.
 - 🚗 I'm especially interested in **automotive cybersecurity**: in-vehicle networks,
   AUTOSAR SecOC, ISO/SAE 21434, UDS diagnostics, and intrusion detection.
 - 🛡️ I think in terms of **threat models and defence in depth**, not just features.
-- 📫 Reach me: `<add your email / LinkedIn here>`
+- 📫 Reach me: `<seytjanovjelaletdin@gmail.com>`
 
 ---
 
