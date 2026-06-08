@@ -1,79 +1,84 @@
-<h1 align="center">Hi, I'm Jelaletdin 👋</h1>
-<h3 align="center">Cybersecurity & Applied Cryptography Engineer</h3>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Je1al/Je1al/main/assets/header.svg" alt="Jelaletdin Seytjanov — Cybersecurity Engineer" width="820">
+</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/focus-automotive%20%26%20embedded%20security-1f6feb">
-  <img src="https://img.shields.io/badge/focus-applied%20cryptography-8957e5">
-  <img src="https://img.shields.io/badge/focus-secure%20systems-2ea043">
+  <a href="https://www.linkedin.com/in/jelaletdin-seytjanov-0521a8309/">
+    <img src="https://img.shields.io/badge/LinkedIn-0d0d0d?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:seytjanovjelaletdin@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0d0d0d?style=flat-square&logo=protonmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/Je1al">
+    <img src="https://komarev.com/ghpvc/?username=Je1al&style=flat-square&color=555555&label=visitors" alt="Profile views"></a>
 </p>
-
----
-
-I build **security-critical systems and cryptographic primitives from the ground up** —
-because the best way to understand how something breaks is to implement, attack, and
-then defend it yourself. My work spans **automotive/embedded security** (CAN bus,
-SecOC, UDS), **applied cryptography** (RSA, SHA-256, Montgomery arithmetic, the
-STB 34.101.31 / Bel-T standard), and **secure protocol & network analysis**.
-
-- 🔐 I implement cryptographic algorithms and security protocols rather than just
-  calling libraries — RSA, SHA-256, Montgomery multiplication, stream/block ciphers.
-- 🚗 I'm especially interested in **automotive cybersecurity**: in-vehicle networks,
-  AUTOSAR SecOC, ISO/SAE 21434, UDS diagnostics, and intrusion detection.
-- 🛡️ I think in terms of **threat models and defence in depth**, not just features.
-- 📫 Reach me: `<seytjanovjelaletdin@gmail.com>`
-
----
-
-## 🚗 Featured project — Car Security Simulator
-
-An **automotive CAN-bus security research platform**: it simulates an in-vehicle ECU
-network and lets you launch real attack techniques against it, then defends with
-**AUTOSAR SecOC**, a **CAN intrusion-detection system** (precision/recall scored),
-and **UDS Security Access**. Runs in-process or on a real CAN bus via `python-can`.
-
-[![Car Security Simulator](https://github-readme-stats.vercel.app/api/pin/?username=Je1al&repo=car-security-simulator&theme=tokyonight)](https://github.com/Je1al/car-security-simulator)
-
-> SecOC (HMAC + Freshness Value) · IDS (rule + frequency + entropy, F1 ≈ 0.95) ·
-> UDS/ISO-TP + seed-key attack · replay/tamper/inject/DoS/fuzz · python-can + DBC ·
-> 50+ tests · CI on Python 3.9–3.12 · ruff- & mypy-clean
-
----
-
-## 🧰 Tech & focus areas
-
-<p>
-  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black">
-  <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
-</p>
-
-| Domain | Topics |
-| --- | --- |
-| **Automotive / embedded security** | CAN bus, AUTOSAR SecOC, UDS (ISO 14229), ISO-TP (ISO 15765-2), ISO/SAE 21434, IDS |
-| **Applied cryptography** | RSA, SHA-256, HMAC, Montgomery multiplication, STB 34.101.31 (Bel-T), classical ciphers |
-| **Systems & networks** | secure IoT protocols, network traffic analysis, IPC, concurrency |
-
----
-
-## 📌 Selected repositories
-
-| Project | What it is |
-| --- | --- |
-| [car-security-simulator](https://github.com/Je1al/car-security-simulator) | Automotive CAN-bus security platform — SecOC, IDS, UDS, attack simulation |
-| [stb-34.101.31](https://github.com/Je1al/stb-34.101.31) | Implementation of the STB 34.101.31 (Bel-T) cryptographic standard |
-| [SecureIoT-Protocol](https://github.com/Je1al/SecureIoT-Protocol) | A secure communication protocol for IoT devices |
-| [network-traffic-analyzer](https://github.com/Je1al/network-traffic-analyzer) | Network traffic capture and analysis tooling |
-| [image-encryption-system](https://github.com/Je1al/image-encryption-system) | Image encryption using cryptographic schemes |
-| [RSA](https://github.com/Je1al/RSA) · [SHA-256](https://github.com/Je1al/SHA-256) · [Algorithm-Montgomery](https://github.com/Je1al/Algorithm-Montgomery) | Cryptographic primitives implemented from scratch |
-
----
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Je1al&show_icons=true&theme=tokyonight&hide_border=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Je1al&layout=compact&theme=tokyonight&hide_border=true" height="165">
+  <em>I build security-critical systems and cryptographic primitives from scratch —<br>
+  the fastest way to understand how something breaks is to implement, attack, then defend it.</em>
 </p>
 
-<p align="center"><i>Open to opportunities in automotive, embedded, and applied-security engineering.</i></p>
+---
+
+### `~/featured`
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[SecureIoT-Protocol](https://github.com/Je1al/SecureIoT-Protocol)** | Mutually authenticated secure channel for IoT — ephemeral X25519 + ChaCha20-Poly1305 + HKDF, sliding-window anti-replay, all crypto from scratch and RFC-validated | `C++17` |
+| **[car-security-simulator](https://github.com/Je1al/car-security-simulator)** | Automotive CAN-bus security platform — AUTOSAR SecOC, intrusion detection, UDS Security Access, attack simulation | `Python` |
+| **[network-traffic-analyzer](https://github.com/Je1al/network-traffic-analyzer)** | PCAP parsing, protocol decoding, anomaly detection and an HTML reporting dashboard | `Python` |
+| **[stb-34.101.31](https://github.com/Je1al/stb-34.101.31)** | The STB 34.101.31 (Bel-T) standard — block cipher, hashing and modes, to spec | `C++` |
+| **[image-encryption-system](https://github.com/Je1al/image-encryption-system)** | Image encryption with chaotic maps (confusion / diffusion) | `Python` |
+
+---
+
+<details>
+  <summary><code>$ ls ~/arsenal</code></summary>
+  <br>
+  <p>
+    <img src="https://img.shields.io/badge/C++-0d0d0d?style=flat-square&logo=cplusplus&logoColor=white">
+    <img src="https://img.shields.io/badge/C-0d0d0d?style=flat-square&logo=c&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-0d0d0d?style=flat-square&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Bash-0d0d0d?style=flat-square&logo=gnubash&logoColor=white">
+    <br>
+    <img src="https://img.shields.io/badge/Linux-0d0d0d?style=flat-square&logo=linux&logoColor=white">
+    <img src="https://img.shields.io/badge/Wireshark-0d0d0d?style=flat-square&logo=wireshark&logoColor=white">
+    <img src="https://img.shields.io/badge/CMake-0d0d0d?style=flat-square&logo=cmake&logoColor=white">
+    <img src="https://img.shields.io/badge/Git-0d0d0d?style=flat-square&logo=git&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub_Actions-0d0d0d?style=flat-square&logo=githubactions&logoColor=white">
+  </p>
+</details>
+
+<details>
+  <summary><code>$ cat ~/focus.md</code></summary>
+  <br>
+
+  - **Applied cryptography** — implementing primitives and protocols from scratch, validated against RFC/NIST test vectors
+  - **Network & traffic security** — packet analysis, protocol dissection, anomaly detection
+  - **Embedded / automotive security** — CAN bus, AUTOSAR SecOC, UDS, intrusion detection
+  - **Offensive security** — exploit fundamentals and tooling (currently sharpening)
+
+</details>
+
+<details>
+  <summary><code>$ git log --stat</code> &nbsp;— GitHub activity</summary>
+  <br>
+  <div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Je1al&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=bdbdbd&icon_color=ffffff">
+      <img src="https://github-readme-stats.vercel.app/api?username=Je1al&show_icons=true&hide_border=true&bg_color=00000000&title_color=0d0d0d&text_color=3a3a3a&icon_color=0d0d0d" height="165">
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Je1al&hide_border=true&background=00000000&stroke=2a2a2a&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=bdbdbd&dates=8a8a8a&excludeDaysLabel=8a8a8a">
+      <img src="https://streak-stats.demolab.com?user=Je1al&hide_border=true&background=00000000&stroke=dddddd&ring=0d0d0d&fire=0d0d0d&currStreakNum=0d0d0d&currStreakLabel=3a3a3a&sideNums=0d0d0d&sideLabels=3a3a3a&dates=8a8a8a&excludeDaysLabel=8a8a8a" height="165">
+    </picture>
+  </div>
+</details>
+
+---
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Je1al/Je1al/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Je1al/Je1al/output/snake.svg">
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Je1al/Je1al/output/snake.svg" width="820">
+  </picture>
+</div>
