@@ -22,11 +22,11 @@
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
-| **[SecureIoT-Protocol](https://github.com/Je1al/SecureIoT-Protocol)** | Mutually authenticated secure channel for IoT — ephemeral X25519 + ChaCha20-Poly1305 + HKDF, sliding-window anti-replay, all crypto from scratch and RFC-validated | `C++17` |
+| **[SHA-256](https://github.com/Je1al/SHA-256)** | Dependency-free C++17 SHA-2 toolkit — SHA-224/256, HMAC, HKDF, PBKDF2 and HOTP/TOTP, all from scratch and validated against NIST/RFC vectors with fuzzing & CI | `C++17` |
 | **[car-security-simulator](https://github.com/Je1al/car-security-simulator)** | Automotive CAN-bus security platform — AUTOSAR SecOC, intrusion detection, UDS Security Access, attack simulation | `Python` |
+| **[SecureIoT-Protocol](https://github.com/Je1al/SecureIoT-Protocol)** | Mutually authenticated secure channel for IoT — ephemeral X25519 + ChaCha20-Poly1305 + HKDF, sliding-window anti-replay, all crypto from scratch and RFC-validated | `C++17` |
+| **[stb-34.101.31](https://github.com/Je1al/stb-34.101.31)** | The STB 34.101.31 (Bel-T) standard — block cipher, hashing, MAC and AEAD modes, validated against the standard's test vectors | `C++` |
 | **[network-traffic-analyzer](https://github.com/Je1al/network-traffic-analyzer)** | PCAP parsing, protocol decoding, anomaly detection and an HTML reporting dashboard | `Python` |
-| **[stb-34.101.31](https://github.com/Je1al/stb-34.101.31)** | The STB 34.101.31 (Bel-T) standard — block cipher, hashing and modes, to spec | `C++` |
-| **[image-encryption-system](https://github.com/Je1al/image-encryption-system)** | Image encryption with chaotic maps (confusion / diffusion) | `Python` |
 
 ---
 
